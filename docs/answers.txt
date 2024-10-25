@@ -1,3 +1,6 @@
+Date of Git Lab Tutorials: 10/25/2024
+Date of Github Account Set-up: October 2013
+
 1.
 [master 483ed18] Docs folder creation and status
 2 files changed, 14 insertions(+)
