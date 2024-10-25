@@ -1,0 +1,45 @@
+1.
+[master 483ed18] Docs folder creation and status
+2 files changed, 14 insertions(+)
+create mode 100644 docs/status.txt
+
+2.
+8 commits have been done to this repository.
+The command used to determine the number of commits to the repository was: 'git rev-list --count HEAD' 
+
+3. 
+The README.md was last modified on Fri Oct 25 02:38:08 2024 -0400
+The command used to determine the when the README file was last modified was: 'git log -1 --format=%cd -- README.md'
+
+4.
+Branches provide the ability for developers to work on features in isolation and avoid breaking production code.   
+Branches allow developers to work separate features simultaneously 
+
+5.
+git log: For viewing past commits and the commit history.
+git status: For viewing the current state of the working directory and which files are staged or modified.
+
+6.
+To view commits where 'Vehicle.h' was one of the commit files the following command would be used: 'git log -- Vehicle.h'
+
+7.
+To view commits whose commit message contains the word 'file' the following command would be used: 'git log --grep="file"'
+
+8.
+Inheritance: A mechanism where a class (child) inherits properties and behaviors from another class (parent), promoting code reuse.
+
+Polymorphism: The ability for different classes to be treated as instances of the same superclass,
+allowing methods to perform differently based on the object's class.
+
+Encapsulation: Restricting access to an object's internal state and requiring all interactions to go through defined methods,
+enhancing data security and integrity.
+
+9.
+The Dictator and Lieutenants workflow has an additional hierarchical review step. Changes must be submitted to Lieutentants who 
+review before sending to directors who make the final push into the main branch. Whereas the Integration Manager workflow 
+involves direct submission to a single manager to merge contributions to the main branch.
+
+10.
+The Dictator offers decisive guidance and final authority, minimizing ambiguity and simplifying the development process.
+Lieutenants can review and test contributions before merging, ensuring higher quality code. Having a review structure in place 
+can help streamline code reviews and feature integration.
